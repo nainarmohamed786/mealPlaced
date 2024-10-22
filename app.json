@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "mealapp",
+    "name": "My Recipe Book",
     "slug": "mealapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
+    "backgroundColor": "#24081f",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -13,13 +14,17 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jokarcreations.myrecipebook"
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.jokarcreations.myrecipebook"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +36,12 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f2c8c322-45b4-4303-859d-02ceab0c9887"
+      }
+    },
+    "owner": "nainaryakath12"
   }
 }
